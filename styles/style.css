@@ -26,6 +26,34 @@
   margin: 0 auto;
 }
 
+span {
+  color: #e95a08;
+}
+
+.dark-02 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+
+.title-01{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn-primary{
+    background: #E95A08;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    padding: 24px;
+    width: 100%;
+    border: none;
+}
+
 /* nav styles */
 .navbar {
   display: flex;
@@ -67,13 +95,47 @@
   font-weight: 700;
 }
 
-.banner-content-description {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 22px;
+/* Plants Styles*/
+
+.plants-container{
+    margin-top: 110px;
 }
 
-.banner-content span {
-  color: #e95a08;
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px 30px;
+}
+
+.plants-content{
+    margin-bottom: 48px;
+}
+
+.plants-content-title{
+    margin: 14px;
+}
+
+.card-content{
+    max-width: 270px;
+    max-height: 485px;
+}
+
+.card-content img{
+    width: 100%;
+}
+
+.card-content-title{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-content-price{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 0px;
 }
 
 /* Responsive styles for mobile device */
@@ -104,28 +166,24 @@
     margin: 0px;
   }
 
-/* banner styles */
+  /* banner styles */
 
-.banner {
-  flex-direction: column-reverse; 
-  margin-top: 28px;   
-}
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 28px;
+  }
 
-.banner img{
+  .banner img {
     max-width: 100%;
-}
+  }
 
-.banner-content-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-top: 28px;
-}
+  .banner-content-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 28px;
+  }
 
-.banner-content-description{
+  .dark-02 {
     font-size: 14px;
-}
-
-
-
-
+  }
 }
