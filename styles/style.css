@@ -26,9 +26,9 @@
   margin: 0 auto;
 }
 
-.container-02{
-    max-width: 888px;
-    margin: 0 auto;
+.container-02 {
+  max-width: 888px;
+  margin: 0 auto;
 }
 
 span {
@@ -40,23 +40,23 @@ span {
   font-size: 22px;
 }
 
-.title-01{
-    font-size: 50px;
-    font-weight: 700;
+.title-01 {
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.btn-primary{
-    background: #E95A08;
-    font-weight: 600;
-    font-size: 18px;
-    color: white;
-    padding: 24px;
-    width: 100%;
-    border: none;
+.btn-primary {
+  background: #e95a08;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 24px;
+  width: 100%;
+  border: none;
 }
 
 /* nav styles */
@@ -102,45 +102,84 @@ span {
 
 /* Plants Styles*/
 
-.plants-container{
-    margin-top: 110px;
+.plants-container {
+  margin-top: 110px;
+  margin-bottom: 200px;
 }
 
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 60px 30px;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 30px;
 }
 
-.plants-content{
-    margin-bottom: 48px;
+.plants-content {
+  margin-bottom: 48px;
 }
 
-.plants-content-title{
-    margin: 14px;
+.plants-content-title {
+  margin: 14px;
 }
 
-.card-content{
-    max-width: 270px;
-    max-height: 485px;
+.card-content {
+  max-width: 270px;
+  max-height: 485px;
 }
 
-.card-content img{
-    width: 100%;
+.card-content img {
+  width: 100%;
 }
 
-.card-content-title{
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 20px;
+.card-content-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.card-content-price{
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    margin-top: 0px;
+.card-content-price {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+/* Plants Lover Section styles */
+.plants-lover-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 133px;
+}
+
+.platns-lover {
+  position: relative;
+}
+
+.plants-lover-badge img {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -130px;
+  left: 350px;
+}
+
+.plants-lover-title {
+  margin-bottom: 20px;
+}
+
+.plants-lover-image img {
+  width: 540px;
+  height: 597px;
+}
+
+.plants-lover-content {
+  max-width: 100%;
+}
+
+.plants-lover-content ul li {
+  margin-bottom: 20px;
 }
 
 /* Responsive styles for mobile device */
@@ -191,28 +230,60 @@ span {
   .dark-02 {
     font-size: 14px;
   }
-/* plants styles */
+  /* plants styles */
 
-.plants-container{
+  .plants-container {
     margin-top: 60px;
-}
- .card-container{
+    margin-bottom: 40px;
+  }
+  .card-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px 20px;
- }
- .card-content{
+  }
+  .card-content {
     max-width: 100%;
     max-height: 100%;
-}
+  }
 
-.card-content img{
+  .card-content img {
     width: 100%;
-}
+  }
 
-.title-01{
+  .title-01 {
     font-size: 24px;
     font-weight: 700;
+  }
+
+  /* Plants Lover section */
+
+  .plants-lover-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .plants-lover-image img {
+    max-width: 100%;
+  }
+
+  .platns-lover {
+    position: relative;
+  }
+
+  .plants-lover-badge img {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .plants-lover-title {
+  margin-bottom: 16px;
 }
 
+  .plants-lover-content ul li {
+  margin-bottom: 16px;
+  }
 
 }
