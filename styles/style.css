@@ -296,6 +296,34 @@ input[type="text"] {
   margin-left: -5px;
 }
 
+/* footer section styles */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.footer-manu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-manu-items ul li {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.footer-manu-items li a {
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.footer-icon img {
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
 /* Responsive styles for mobile device */
 
 @media screen and (max-width: 576px) {
@@ -409,6 +437,18 @@ input[type="text"] {
     margin-top: 45px;
   }
 
+  .latest-deal-card-2{
+    height: 210px;
+  }
+
+  .latest-deal-card-title-2{
+    font-size: 20px;
+  }
+
+  .latest-deal-card-title-2 a{
+    font-size: 16px;
+  }
+
   /* join section styles */
   .join-container {
     max-width: 100%;
@@ -429,4 +469,27 @@ input[type="text"] {
     font-size: 14px;
     padding: 10px;
   }
+
+  /* footer responsive */
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+  }
+  .footer-content{
+    margin-left: 20px;
+  }
+
+  .footer-manu-items {
+    grid-template-columns: repeat(1, 1fr);   
+  }
+
+  .footer-manu-items ul li{
+    margin-left: -20px;
+  }
+
+  .footer-icon img {
+  margin-left: 20px;
+}
+
 }
